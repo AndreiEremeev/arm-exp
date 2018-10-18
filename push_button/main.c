@@ -4,7 +4,6 @@
 #define RCC             0x40023800
 #define RCC_AHBENR      (*(volatile unsigned long*)(RCC + 0x1c))
 #define RCC_APB2ENR     (*(volatile unsigned long*)(RCC + 0x20))
-#define RCC_APB1ENR     (*(volatile unsigned long*)(RCC + 0x24))
 
 
 #define GPIOB           0x40020400
